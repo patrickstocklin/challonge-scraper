@@ -19,11 +19,11 @@ This python script fires requests at the Challonge Developer API for all iterati
 ## Setup
 
 ```
-git clone https://github.com/patrickstocklin/challongeutils.git
+git clone https://github.com/patrickstocklin/challonge-scraper.git
 
-virtualenv --no-site-packages challongeutils
+virtualenv --no-site-packages challonge-scraper
 
-cd challongeutils
+cd challonge-scraper
 source bin/activate
 
 pip install -r requirements.txt
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-~/challongeutils$ python challonge-scraper.py -h
+~/challonge-scraper$ python challonge-scraper.py -h
 usage: challonge-scraper.py [-h] -u USER -k APIKEY -o TOURNAMENTOWNER -n
                             TOURNAMENTNAME -t TARGETDIRECTORY
 
