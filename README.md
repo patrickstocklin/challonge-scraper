@@ -65,4 +65,6 @@ python challonge-scraper.py -u XXX -k XXX -o tloc -n MNM -t ../data/tournaments
 
 I really enjoy TourneyLocator's Monday Night Melee dataset. As of writing this, it has ~200 weekly brackets for Super Smash Brothers Melee. Almost 4 years of Melee tournament-data.
 
+If you want to borrow, please take note of what cURL commands are being made and modify them accordingly. I'm too lazy at the moment to make this work for all series of brackets.
+
 For further information, visit the [Challonge API Documentation](https://api.challonge.com/v1)
